@@ -9,7 +9,7 @@ nested-tpch/load_nested_data.sh
 
 If impala falls short on memory while running the scripts then update the "impala daemon memory limit" to 8GB.  You find this in Cloudera Manager -> Impala -> Configuration -> Resource Management.
 
-You may need to change the database names based on what volume of data you have created using tpch scripts. The volume/size parameter is appended to database name by tpch scripts. In my case it was tpch_flat_orc_2.
+You may need to change the database name based on what volume of data you have created using tpch scripts. The volume/size parameter is appended to database name by tpch scripts. In my case it was tpch_flat_orc_2.
 
 By the way, my cloudera setup is on gcloud and instructions are [over here](https://my-bigdata-blog.blogspot.com/search/label/Cloudera)
 
