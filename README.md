@@ -4,7 +4,7 @@ Once you have created the data, run scrip to create tables in impala with comple
 
 **Execute the script as below**
 
-impala-nested-tpch/load_nested_data.sh
+nested-tpch/load_nested_data.sh
 
 # Retail DB Dataset
 This is retail db database which is provided  along with cloudera VMs. If you are installing cloudera on your own, this DB is not installed with it. 
